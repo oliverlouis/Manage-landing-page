@@ -38,3 +38,11 @@
 	color: white;
 	background-color: $primary-orange;
 }
+
+.go {
+	@extend %get-started-btn;
+	width: 65px;
+	padding: 15px 20px;
+	background-color: $primary-orange;
+	color: $light-gray;
+}
